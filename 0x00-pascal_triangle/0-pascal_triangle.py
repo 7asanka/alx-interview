@@ -1,4 +1,13 @@
+#!/usr/bin/python3
+"""
+Module defines a function for pascals triangle
+"""
+
+
 def pascal_triangle(n):
+    """
+    returns a list representation of pascals triangle
+    """
     if n <= 0:
         return []
 
