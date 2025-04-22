@@ -1,5 +1,11 @@
 #!/usr/bin/python3
+"""
+A module for working with lockboxes.
+"""
+
 def canUnlockAll(boxes):
+    """ a method that determines if all the boxes can be opened."""
+
     if not boxes or not isinstance(boxes, list):
         return False
 
