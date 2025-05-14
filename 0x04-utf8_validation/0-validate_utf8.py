@@ -3,6 +3,7 @@
 Validates if a list of integers represents a valid UTF-8 encoding.
 """
 
+
 def validUTF8(data):
     """
     Determines if a given data set represents a valid UTF-8 encoding.
@@ -27,4 +28,4 @@ def validUTF8(data):
             remaining_bytes -= 1
 
     return remaining_bytes == 0
-
+    return remaining_bytes == 0
