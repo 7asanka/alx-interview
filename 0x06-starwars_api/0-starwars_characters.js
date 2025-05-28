@@ -30,4 +30,3 @@ request(filmUrl, (err, res, body) => {
 
   printCharacter(0);
 });
-
